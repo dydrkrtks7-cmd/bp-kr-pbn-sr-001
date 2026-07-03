@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mapo-shirts-story.xyz/sitemap.xml

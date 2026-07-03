@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마포 셔츠룸 추천 | 정보</title>
+    <meta name="description" content="마포 셔츠룸 추천, 분위기 좋은 셔츠룸 찾고 계신가요? 마포 셔츠룸의 매력을 생생한 후기와 함께 소개합니다. 010-6279-0862로 편하게 문의 주세요.">
+    <meta name="keywords" content="마포 셔츠룸, 마포 셔츠룸 추천, 마포 셔츠룸 가격, 마포 셔츠룸 후기, 셔츠룸 마포, 마포 셔츠룸 시스템">
+    <link rel="canonical" href="https://kr-pbn-sr-001.vercel.app/">
+    <meta property="og:title" content="마포 셔츠룸 추천 | 정보">
+    <meta property="og:description" content="마포 셔츠룸 추천, 분위기 좋은 셔츠룸 찾고 계신가요? 마포 셔츠룸의 매력을 생생한 후기와 함께 소개합니다.">
+    <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630' viewBox='0 0 1200 630'%3E%3Crect width='1200' height='630' fill='%23000000'/%3E%3Ctext x='600' y='315' font-family='Arial' font-size='48' fill='%23D4AF37' text-anchor='middle' dominant-baseline='middle'%3E%EC%85%94%EC%B8%A0%EB%A3%B8%3C/text%3E%3C/svg%3E">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #0A0A0A;
+            color: #E0E0E0;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 700;
+            line-height: 1.2;
+            color: #FFFFFF;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #D4AF37;
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            color: #B0B0B0;
+        }
+        a {
+            color: #D4AF37;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #F5D76E;
+        }
+        header {
+            background-color: #111111;
+            border-bottom: 1px solid #2A2A2A;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 0.75rem 0;
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #D4AF37;
+            letter-spacing: 1px;
+        }
+        .logo span {
+            color: #FFFFFF;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+        nav ul li a {
+            color: #B0B0B0;
+            font-size: 0.95rem;
+            font-weight: 500;
+            padding: 0.5rem 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #D4AF37;
+            border-bottom-color: #D4AF37;
+        }
+        .tel-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background-color: #D4AF37;
+            color: #0A0A0A !important;
+            padding: 0.6rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .tel-link:hover {
+            background-color: #F5D76E;
+            color: #0A0A0A !important;
+            transform: scale(1.05);
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            padding: 5px;
+        }
+        .hamburger-menu span {
+            width: 28px;
+            height: 3px;
+            background-color: #D4AF37;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: flex;
+            }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: #111111;
+                padding: 1rem 0;
+                border-bottom: 1px solid #2A2A2A;
+                gap: 0;
+            }
+            nav ul.active {
+                display: flex;
+            }
+            nav ul li {
+                text-align: center;
+            }
+            nav ul li a {
+                display: block;
+                padding: 0.8rem 1rem;
+                border-bottom: 1px solid #1A1A1A;
+            }
+            nav ul li a.tel-link {
+                margin: 0.5rem 1rem;
+                justify-content: center;
+            }
+        }
+        .hero {
+            padding: 4rem 0;
+            text-align: center;
+            background: linear-gradient(135deg, #0A0A0A 0%, #1A1A2E 100%);
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            color: #B0B0B0;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #D4AF37;
+            color: #0A0A0A !important;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .cta-button:hover {
+            background-color: #F5D76E;
+            transform: scale(1.05);
+        }
+        .section {
+            padding: 4rem 0;
+        }
+        .section-alt {
+            background-color: #111111;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+        .card {
+            background-color: #1A1A1A;
+            border: 1px solid #2A2A2A;
+            border-radius: 12px;
+            padding: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.1);
+        }
+        .card h3 {
+            color: #D4AF37;
+            margin-bottom: 1rem;
+        }
+        .card p {
+            color: #B0B0B0;
+        }
+        .faq-item {
+            background-color: #1A1A1A;
+            border: 1px solid #2A2A2A;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .faq-item h3 {
+            color: #D4AF37;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        .faq-item p {
+            color: #B0B0B0;
+            margin-bottom: 0;
+        }
+        footer {
+            background-color: #111111;
+            border-top: 1px solid #2A2A2A;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        footer p {
+            color: #666666;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+            .hero h1 { font-size: 2.2rem; }
+            .hero p { font-size: 1rem; }
+            .grid-2 { grid-template-columns: 1fr; }
+            .card { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">마포<span>셔츠룸</span></div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/info">정보</a></li>
+                    <li><a href="/review">후기</a></li>
+                    <li><a href="/price">가격</a></li>
+                    <li><a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>마포 셔츠룸, 제대로 알고 즐기자</h1>
+            <p>형, 마포에서 셔츠룸 한 번쯤 고민해봤지? 내가 직접 발로 뛰어본 정보를 다 모아봤어. 가격, 시스템, 분위기까지 싹 다 알려줄게. 궁금한 건 전화 한 통이면 끝!</p>
+            <a href="tel:010-6279-0862" class="cta-button">지금 전화 문의</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>마포 셔츠룸, 뭔데?</h2>
+            <p>솔직히 말하면, 나도 처음엔 셔츠룸이 뭔지 잘 몰랐어. 그냥 '룸'에 '셔츠' 입고 노는 곳인 줄 알았지. 근데 가보니까 완전 다른 세상이더라. 마포 셔츠룸은 딱 이래.</p>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>분위기 끝판왕</h3>
+                    <p>조명은 은은하고, 인테리어는 깔끔. 여기 들어서면 왜 사람들이 자꾸 오는지 알겠더라. 술 한잔 걸치면서 얘기 나누기 딱 좋아.</p>
+                </div>
+                <div class="card">
+                    <h3>아가씨들 퀄리티</h3>
+                    <p>내가 본 마포 셔츠룸 아가씨들은 진짜 프로였어. 말도 잘 통하고, 분위기 맞춰주는 센스가 장난 아님. 덕분에 내가 왕인 줄 알았잖아.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="container">
+            <h2>마포 셔츠룸 시스템, 이렇게 돌아가</h2>
+            <p>처음 가면 시스템이 헷갈릴 수 있어. 나도 첫 방문 때 '이거 어떻게 하는 거지?' 하면서 당황했거든. 그래서 내 경험을 바탕으로 쉽게 풀어줄게.</p>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>입장부터 자리까지</h3>
+                    <p>도착하면 웰컴 드링크 주고, 방으로 안내해줘. 방 안에는 노래방 기계랑 테이블이 있어. 친구랑 와도 좋고, 혼자 와도 괜찮아. 나는 친구랑 갔는데 더 신났어.</p>
+                </div>
+                <div class="card">
+                    <h3>시간과 비용</h3>
+                    <p>보통 1시간, 2시간 단위로 운영해. 가격은 업소마다 다르지만, 대부분 20만 원대부터 시작. 추가 시간이나 서비스는 현장에서 확인하는 게 가장 정확해. 궁금하면 전화해 봐.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>자주 묻는 질문</h2>
+            <div class="faq-item">
+                <h3>마포 셔츠룸 처음 가는데 뭐 준비해 가야 돼?</h3>
+                <p>딱히 준비할 건 없어. 그냥 가벼운 마음으로 와. 옷은 편하게 입고 오면 되고, 현금이나 카드 다 돼. 나는 처음에 긴장했는데 막상 가니까 너무 편했어.</p>
+            </div>
+            <div class="faq-item">
+                <h3>혼자 가도 돼?</h3>
+                <p>당연히 돼! 나도 가끔 혼자 가서 맥주 한잔 하면서 아가씨랑 수다 떨고 와. 오히려 혼자가 더 집중해서 즐길 수 있어. 물론 친구랑 오면 더 재밌긴 하지.</p>
+            </div>
+            <div class="faq-item">
+                <h3>가격은 얼마 정도 하나?</h3>
+                <p>기본 1시간에 20~30만원 정도 생각하면 돼. 럭셔리하게 즐기고 싶으면 2시간 패키지도 있어. 내 경험상, 1시간도 충분히 알차게 즐길 수 있어. 자세한 건 전화로 물어보는 게 최고야.</p>
+            </div>
+            <div class="faq-item">
+                <h3>예약 필수야?</h3>
+                <p>예약하면 대기 없이 바로 입장할 수 있어서 좋아. 나는 항상 전화로 예약하고 가는데, 번거롭지 않고 간단해. 010-6279-0862로 전화하면 바로 예약 가능해.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="container">
+            <h2>마포 셔츠룸, 내가 추천하는 이유</h2>
+            <p>형, 나는 여기저기 셔츠룸 많이 가봤어. 강남도 가보고, 홍대도 가봤는데 마포만한 데가 없더라. 이유를 딱 세 가지만 말해줄게.</p>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>접근성 최고</h3>
+                    <p>마포는 교통이 진짜 편해. 지하철역에서 걸어서 5분이면 도착하고, 주차도 넉넉해. 나는 차 타고 가는데 주차 걱정 1도 없어.</p>
+                </div>
+                <div class="card">
+                    <h3>가성비 좋음</h3>
+                    <p>강남이랑 비슷한 퀄리티인데 가격은 훨씬 합리적이야. 내 지갑 사정을 생각하면 마포가 진리야. 술값도 부담 없고, 서비스
+</body>
+</html>
