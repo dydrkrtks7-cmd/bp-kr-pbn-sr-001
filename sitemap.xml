@@ -2,19 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mapo-shirts-story.xyz/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mapo-shirts-story.xyz/posts/gemini-coverage-20260705-341.html</loc>
-    <lastmod>2026-07-04</lastmod>
+    <loc>https://mapo-shirts-story.xyz/posts/gemini-coverage-20260705-1154.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mapo-shirts-story.xyz/posts/gemini-coverage-20260705-1154.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://mapo-shirts-story.xyz/posts/gemini-coverage-20260705-341.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
